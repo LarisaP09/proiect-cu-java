@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <script src="../javascript/script.js" defer></script>
+    <script src="../javascript/script1.js" defer></script>
+    <title>Pulse</title>
+    
+</head>
+
+<body>
+    <div class="navigation">
+        <header>
+            <img class="logo" src="../Images/logo-removebg-preview.png" alt="logo">
+            <div class="hamburger-menu">
+                    <input type="checkbox" id="toggle" class="toggle_input">
+                    <label class="label_toggle" for="toggle"><img class="logo_toggle" src="../Images/logo-removebg-preview.png" alt="logo"></label>
+                
+                    <nav>
+                    <ul class="nav_links">
+                        <li> <a href="../html/index.html" >Home</a></li>
+                        <li><a href="../html/products.html">Products </a></li>
+                        <li><a href="../html/about.html" >About us</a></li>
+                        <li><a href="../html/contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+          
+        </header>
+       
+    </div>
+    <div class="container">
+        <h2>Connect With Us</h2>
+        <p>We would love to respond to your queries. <br>Feel free to get in touch with us.</p>
+        <div class="contor-submit">Form submitted: <span id="submitCount">0</span> times </div>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Sent your request</h3>
+                <form id="form">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name:</label>
+                            <input type="text" placeholder="Adams Jack" class="insert" id="name">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone:</label>
+                            <input type="text" placeholder="+40 785632146" class="insert" id="phone">
+                        </div>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>E-mail:</label>
+                            <input type="email" placeholder="adams@yahoo.com" class="insert" id="email">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject:</label>
+                            <input type="text" placeholder="Blue jumpsuit" class="insert" id="subject">
+                        </div>
+                    </div>
+                    <label>Message:</label>
+                    <textarea rows="5" placeholder="Your message" id="message"></textarea>
+
+                    <button type="submit" id="submit">Send</button>
+                    
+                </form>
+
+            </div>
+
+            <div class="contact-right">
+                <div class="input-row">
+                        <h3>Reach Us</h3>
+                </div>
+                <div class="input-row">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.2403488404684!2d23.589319977051908!3d46.08618637109101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474ea94c4efade33%3A0xd0b472030cbb3647!2sCarolina%20Mall!5e0!3m2!1sro!2sro!4v1707041635308!5m2!1sro!2sro"></iframe>
+                </div>
+                <div class="input-row">
+                    <h3>Contact Us</h3>
+                </div>
+                <div class="input-row">
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>pulse.assis@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>0254635874</td>
+                        </tr>
+                        <tr>
+                            <td>Adress</td>
+                            <td>Str. Alexandru Ioan Cuza 2</td>
+                        </tr>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <section class="weather">
+        <h3>Get your sport set for the perfect weather</h3>
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="get-weather-btn">Get Weather</button>
+        <div id="weather-output"></div>
+    </section>
+        
+    <footer>
+        <div class="footer">
+            <div class="useful-links">
+                <h3>USEFUL LINKS</h3>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./products.html">Shop</a>
+            </div>
+            <div class="subscribe">
+                <h3>NEWSLETTER</h3>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <br>
+                    <button type="submit">SUBSCRIBE</button>
+                   
+                </form>
+            </div>
+            <div class="social-links">
+                <h3>SOCIAL LINKS</h3>
+                <a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a>
+                <a href="https://www.facebook.com/" target="_blank">FACEBOOK</a>
+                <a href="https://www.snapchat.com/" target="_blank">SNAPCHAT</a>
+            </div>
+        </div>
+    </footer>
+    <section class="under-footer">
+        <div> <p>&copy; 2024 FACULTATEA DE STIINTE</p></div>
+    </section>
+   
+</body>
+
+</html>
